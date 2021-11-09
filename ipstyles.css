@@ -1,0 +1,33 @@
+.head{
+    text-align: center;
+    color:yellow;
+}
+
+.column{
+    float: inline-start;
+    width: 200px;
+    margin: 50px;
+}
+
+div{
+    column-count: 3;
+    font: auto 1rem sans-serif;
+ }
+.fit-picture{
+   width: 250px;
+    margin-right: 33%;
+
+}
+
+#imground{
+    border-end-end-radius: 30%;
+}
+body{
+    font-family: sans-serif;
+}
+@media screen and (max-width:700px) {
+    .column {
+        width: 100%;
+    }
+
+}
